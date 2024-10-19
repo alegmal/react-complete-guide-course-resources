@@ -1,3 +1,5 @@
+import "./Concept.css";
+
 export default function Concept({ image, title, description }) {
   return (
     <li>

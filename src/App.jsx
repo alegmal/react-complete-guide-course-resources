@@ -25,7 +25,9 @@ function App() {
         </section>
         <section id="examples">
           <h2>Examples</h2>
-          <Button>Component</Button>
+          <menu>
+            <Button>Component</Button>
+          </menu>
         </section>
       </main>
     </div>
