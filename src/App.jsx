@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Concept from "./components/Concept";
+import Button from "./components/Button";
 
 import { CORE_CONCEPTS } from "./data";
 import headerImage from "./assets/react-core-concepts.png";
@@ -21,6 +22,10 @@ function App() {
               />
             ))}
           </ul>
+        </section>
+        <section id="examples">
+          <h2>Examples</h2>
+          <Button>Component</Button>
         </section>
       </main>
     </div>
