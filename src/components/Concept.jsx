@@ -1,13 +1,9 @@
-
-
-const Concept = (props) => {
+export default function Concept({ image, title, description }) {
   return (
     <li>
-      <img src={props.image}></img>
-      <h3>{props.title}</h3>
-      <p>{props.description}</p>
+      <img src={image} />
+      <h3>{title}</h3>
+      <p>{description}</p>
     </li>
   );
-};
-
-export default Concept;
+}
